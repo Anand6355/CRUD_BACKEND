@@ -5,9 +5,9 @@ const mongoose = require('mongoose')
 const app = express()
 const productRoute = require('./routes/productRoute');
 var cors = require('cors')
-const MONGO_URL = process.env.MONGO_URL
+const MONGO_URL = 'mongodb+srv://anandkumar6355:Rocky123@crud0.e55xnz4.mongodb.net/?retryWrites=true&w=majority'
 const PORT = process.env.PORT || 3000
-const FRONTEND = process.env.FRONTEND
+const FRONTEND = 'http://localhost:5173'
 
 app.use(express.json())
 app.use(express.urlencoded({extended: false}))
