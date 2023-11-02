@@ -7,7 +7,7 @@ const productRoute = require('./routes/productRoute');
 var cors = require('cors')
 const MONGO_URL = 'mongodb+srv://anandkumar6355:Rocky123@crud0.e55xnz4.mongodb.net/?retryWrites=true&w=majority'
 const PORT = process.env.PORT || 3000
-const FRONTEND = 'http://localhost:5173'
+const FRONTEND = 'https://anand-crud.netlify.app/'
 
 app.use(express.json())
 app.use(express.urlencoded({extended: false}))
